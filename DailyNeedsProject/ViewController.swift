@@ -6,6 +6,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         let tabBarVC = UITabBarController()
+        let tabBarVC1 = UITabBarController()
+        let tabBarVC2 = UITabBarController()
+        let tabBarVC3 = UITabBarController()
+        
         
         // Create view controllers for each tab
         let dailyNeeds = UINavigationController(rootViewController: DailyNeedsViewController())
